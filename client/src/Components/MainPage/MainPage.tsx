@@ -16,7 +16,7 @@ function MainPage(): JSX.Element {
   }, [file]);
 
   function findFile(id: number): void {
-    dispatch(getFile(Number(id)));
+    dispatch(getFile(id));
   }
 
   return (
